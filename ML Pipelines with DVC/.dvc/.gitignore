@@ -1,0 +1,8 @@
+/config.local
+/tmp
+/cache
+@"
+**/.venv/
+**/__pycache__/
+**/.env
+"@ | Out-File -Encoding utf8 .gitignore
